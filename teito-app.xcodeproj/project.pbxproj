@@ -13,6 +13,7 @@
 		14F9C04628F8204E00CBDA2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F9C04528F8204E00CBDA2A /* ContentView.swift */; };
 		14F9C04828F8205100CBDA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F9C04728F8205100CBDA2A /* Assets.xcassets */; };
 		14F9C04B28F8205100CBDA2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F9C04A28F8205100CBDA2A /* Preview Assets.xcassets */; };
+		CC608B0F291D0AF700A8D227 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC608B0E291D0AF700A8D227 /* FirstView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		14F9C04528F8204E00CBDA2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14F9C04728F8205100CBDA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14F9C04A28F8205100CBDA2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC608B0E291D0AF700A8D227 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				14F9C04528F8204E00CBDA2A /* ContentView.swift */,
+				CC608B0E291D0AF700A8D227 /* FirstView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14C8D464291BF29300CF5CA4 /* ViewController.swift in Sources */,
+				CC608B0F291D0AF700A8D227 /* FirstView.swift in Sources */,
 				14F9C04628F8204E00CBDA2A /* ContentView.swift in Sources */,
 				14F9C04428F8204E00CBDA2A /* teito_appApp.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"teito-app/Preview Content\"";
+				DEVELOPMENT_TEAM = SW9JHAM24B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "teito-app/Info.plist";
@@ -330,6 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"teito-app/Preview Content\"";
+				DEVELOPMENT_TEAM = SW9JHAM24B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "teito-app/Info.plist";
