@@ -12,13 +12,13 @@ struct ContentView: View {
     @State private var selectedStr02 = "食レポ"
     @State private var selectedStr03 = "ラーメン"
     var body: some View {
+        
         VStack{
             Text("あなたのことを教えてください")
                 .font(.title3)
                 .padding()
             Text("興味のあるカテゴリーを教えてください")
                 .font(.subheadline)
-            
             Picker(selection: $selectedStr01, label: Text("選択してください")
                 .foregroundColor(Color.green)) {
                 Text("低糖質レシピ").tag("低糖質レシピ")
@@ -49,8 +49,6 @@ struct ContentView: View {
             }.padding()
             Text("好きな食べ物の種類 :\n \(self.selectedStr03)")
                 .multilineTextAlignment(.center)
-            Color.yellow
-                .ignoresSafeArea()
         }
     }
 }
